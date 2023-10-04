@@ -1,0 +1,103 @@
+<!-- Sergio Mosquera Marin -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"> <!-- Enlace a una hoja de estilos externa llamada "style.css" -->
+    <title>Contribuye</title> <!-- Título de la página web -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li> <!-- Enlace de navegación "Inicio" -->
+                <li><a href="donaciones.html">Donaciones</a></li> <!-- Enlace de navegación "Donaciones" -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>¡Aporta tu granito de arena!</h2> <!-- Título principal -->
+        <section>
+            <!-- Formulario con método POST que se enviará a "mostrarpost.php" -->
+            <form action="" method="post">
+                <!-- Input para introducir el nombre de la persona que envía el formulario -->
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre"><br>
+                <!-- Select para seleccionar el método de pago que usará el usuario para hacer un donativo -->
+                <label for="opcion">Métodos de pago</label>
+                <select id="opcion" name="opcion">
+                    <option value="paypal">PayPal</option>
+                    <option value="credito">Tarjeta de crédito</option>
+                </select><br>
+                <!-- Espacio para definir el género, opcional -->
+                <fieldset>
+                    <legend>Género</legend>
+                    <input type="radio" id="hombre" name="genero" value="hombre">
+                    <label for="hombre">Hombre</label><br>
+                    <input type="radio" id="mujer" name="genero">
+                    <label for="mujer">Mujer</label><br>
+                    <input type="radio" id="otro" name="genero">
+                    <label for="otro">Otro</label>
+                </fieldset><br>
+                <!-- Espacio para marcar las ONGs por las que está interesado el usuario -->
+                <fieldset>
+                    <legend>¿Cuáles te interesan?</legend>
+                    <input type="checkbox" id="cruzroja" name="ong[]" value="cruzroja">
+                    <label for="cruzroja">Cruz Roja</label><br>
+                    <input type="checkbox" id="ecoembes" name="ong[]" value="ecoembes">
+                    <label for="ecoembes">Ecoembes</label><br>
+                    <input type="checkbox" id="otra" name="ong[]" value="otra">
+                    <label for="otra">Otra</label><br>
+                </fieldset>
+                <!-- Checkbox para recibir ofertas y notificaciones por correo -->
+                <input type="checkbox" id="publicidad" name="publicidad">
+                <label for="publicidad">Recibir ofertas y notificaciones por correo</label><br>
+                <!-- Checkbox para aceptar los Términos y Servicios -->
+                <input type="checkbox" id="terminos" name="terminos">
+                <label for="terminos">Términos y Servicios</label><br>
+                <!-- Botón para enviar el formulario -->
+                <input type="submit" name="enviar">
+            </form>
+        </section>
+        <section>
+            <table>
+                <caption>Colaboradores</caption>
+                <!-- Tabla que muestra imágenes de colaboradores -->
+                <tr>
+                    <td>
+                        <img src="imagen/ong1.png" alt="">
+                    </td>
+                    <td>
+                        <img src="imagen/ong2.png" alt="">
+                    </td>
+                    <td>
+                        <img src="imagen/ong3.png" alt="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="imagen/ong4.png" alt="">
+                    </td>
+                    <td>
+                        <img src="imagen/ong5.png" alt="">
+                    </td>
+                    <td>
+                        <img src="imagen/ong6.png" alt="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="imagen/ong7.png" alt="">
+                    </td>
+                    <td>
+                        <img src="imagen/ong8.png" alt="">
+                    </td>
+                    <td>
+                        <img src="imagen/ong9.png" alt="">
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </main>
+</body>
+</html>

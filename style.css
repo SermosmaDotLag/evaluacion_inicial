@@ -1,0 +1,152 @@
+/* Establece la fuente principal para el cuerpo de la página y ajusta algunos valores de diseño global */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    width: 1280px;
+    background-color: #a3a3a3;
+}
+
+/* Inician los estilos para el menú de navegación */
+nav {
+    background-color: #333;
+}
+
+/* Estilos para la lista no ordenada dentro del menú de navegación */
+nav > ul {
+    list-style-type: none;
+    display: flex; /* Hace que los elementos de la lista se comporten como celdas de tabla y estén centrados horizontalmente */
+    justify-content: center; /* Centra el contenido de la lista horizontalmente */
+    padding: 10px 0;
+    margin: 0;
+}
+
+/* Estilos para los elementos de la lista del menú */
+nav > ul > li {
+    margin: 0;
+}
+
+/* Estilos para los enlaces dentro de los elementos de la lista del menú */
+nav > ul > li > a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+}
+
+/* Estilos para los enlaces cuando se les hace hover con el ratón */
+a:hover {
+    background-color: #555;
+}
+/* Terminan los estilos del menú de navegación */
+
+/* Estilos para la sección principal de contenido */
+main {
+    font-size: small;
+}
+
+/* Estilos para las secciones individuales dentro de la página */
+section {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Estilos para los títulos de nivel 2 (h2) */
+h2 {
+    text-align: center;
+}
+
+/* Estilos para los párrafos dentro de las secciones */
+section > p {
+    float: left;
+    width: 50%;
+    background-color: #555;
+    padding: 10px;
+    text-align: justify;
+    font-weight: lighter;
+    border-radius: 15px;
+    color: whitesmoke;
+    font-size: smaller;
+}
+
+/* Estilos para los elementos <div> dentro de las secciones */
+section > div {
+    float: left;
+    width: 40%;
+    padding: 20px;
+    margin: auto;
+}
+
+/* Estilos para las imágenes dentro de la sección de inicio */
+#inicio > section > div > img {
+    border: 2px black solid;
+    border-radius: 10px;
+    width: 350px;
+}
+
+/* Estilos para formularios */
+form {
+    float: left;
+    padding: 10px;
+    width: 30%;
+    background-color: #555;
+    border-radius: 15px;
+    color: whitesmoke;
+}
+
+/* Estilos para elementos de formulario (input y select) */
+input {
+    margin: 5px;
+    padding: 7px;
+    border: transparent;
+}
+
+select {
+    margin: 5px;
+    padding: 7px;
+    border: transparent;
+}
+
+/* Estilos para tablas */
+table {
+    width: 40%;
+    float: right;
+}
+
+/* Estilos para el título de la tabla (caption) */
+caption {
+    text-align: center;
+}
+
+/* Estilos para tablas y celdas de tabla */
+table, td {
+    border: 1px dotted black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+/* Estilos para imágenes */
+img {
+    width: 100px;
+}
+
+/* Estilos para el footer de la página */
+footer {
+    margin-top: 10px;
+    float: left;
+    background-color: #333;
+    color: whitesmoke;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+}
+
+/* Estilos para los elementos dentro del footer */
+footer > div {
+    font-size: xx-small;
+    float: left;
+}
+/* Estilos para los elementos dentro del span */
+span{
+    font-weight: bold;
+}
