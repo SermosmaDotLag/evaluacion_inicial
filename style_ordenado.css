@@ -1,0 +1,170 @@
+/*Sergio Mosquera Marin*/
+/*Elementos del Layout*/
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    width: 1280px;
+    background-color: #a3a3a3;
+}
+
+/*Inicio Elementos del body*/
+
+header {
+    background-color: #333;
+    width: 1280px;
+    height: 80px;
+}
+
+    /*Inicio Elementos del header*/
+        /*Inicio Elementos del nav*/
+nav > ul {
+    list-style: none;
+    padding: 15px;
+    text-align: center;
+}
+
+            /*Inicio Elementos del ul*/
+
+nav > ul > li {
+    display: inline-block;
+    margin: 0 auto;
+    width: 150px;
+}
+
+                /*Inicio Elementos del li*/
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+}
+                /*Fin Elementos del li*/
+            /*Fin Elementos del ul*/
+        /*Fin Elementos del nav*/
+    /*Fin Elementos del header*/
+
+main {
+    font-size: small;
+    width: 1280px;
+}
+
+section {
+    margin: 0 auto;
+    padding-left: 130px;
+    min-height: 260px;
+    width: 1040px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+footer {
+    margin-top: 20px;
+    float: left;
+    background-color: #333;
+    color: whitesmoke;
+    padding: 10px;
+    width: 1260px;
+    height: 90px;
+    padding-left: 37px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+section > p {
+    float: left;
+    width: 500px;
+    background-color: #555;
+    padding: 10px;
+    text-align: justify;
+    font-weight: lighter;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: medium;
+    line-height: 25px;
+    margin-right: 70px;
+}
+
+section > div {
+    float: left;
+    width: 340px;
+    margin: 0 auto;
+}
+
+#inicio > section > div > img {
+    border-radius: 5px;
+    width: 340px;
+    height: 250px;
+}
+
+form {
+    float: left;
+    padding: 15px;
+    width: 400px;
+    background-color: #555;
+    border-radius: 15px;
+    color: whitesmoke;
+}
+
+input {
+    margin: 5px;
+    padding: 7px;
+}
+
+select {
+    margin: 5px;
+    padding: 7px;
+    border: transparent;
+}
+
+/*Fin Elementos del body*/
+
+
+/*Sin ordenar*/
+
+/* Estilos para los enlaces cuando se les hace hover con el ratón */
+nav > ul > li > a:hover {
+    background-color: #555;
+}
+
+/* Estilos para tablas */
+table {
+    width: 533px;
+    float: right;
+    text-align: center;
+}
+
+/* Estilos para el título de la tabla (caption) */
+caption {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
+
+/* Estilos para imágenes */
+figure>a>img {
+    width: 100px;
+}
+
+/* Estilos para el footer de la página */
+
+
+/* Estilos para los elementos dentro del footer */
+footer > div {
+    font-size: smaller;
+    height: 60px;
+    width: 280px;
+}
+/* Estilos para los elementos dentro del span */
+span{
+    font-weight: bold;
+}
