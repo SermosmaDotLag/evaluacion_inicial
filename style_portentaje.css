@@ -1,0 +1,165 @@
+html{
+    width: 1280px;
+}
+
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%; /* 100% del ancho del contenedor principal (1280px) */
+    background-color: #a3a3a3;
+}
+
+/* Estilo para el encabezado de la página */
+header {
+    background-color: #333;
+    width: 100%; /* 100% del ancho del contenedor principal (1280px) */
+    height: 80px;
+}
+
+/* Estilo para la lista no ordenada dentro de la barra de navegación */
+nav > ul {
+    list-style: none;
+    width: 97.65625%; /* (1250px / 1280px) * 100% */
+    padding: 15px;
+    text-align: center;
+}
+
+/* Estilo para los elementos de lista dentro de la barra de navegación */
+nav > ul > li {
+    display: inline-block;
+    margin: 0 auto;
+    width: 11.71875%; /* (150px / 1280px) * 100% */
+}
+
+/* Estilo para los enlaces dentro de los elementos de lista */
+nav > ul > li > a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+}
+
+/* Estilo para la sección principal de la página */
+main {
+    font-size: small;
+    width: 100%; /* 100% del ancho del contenedor principal (1280px) */
+}
+
+/* Estilo para las secciones de contenido */
+section {
+    margin: 0 auto;
+    padding-left: 130px;
+    min-height: 260px;
+    width: 79.6875%; /* (1020px / 1280px) * 100% */
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+/* Estilo para el pie de página de la página */
+footer {
+    margin-top: 20px;
+    float: left;
+    background-color: #333;
+    color: whitesmoke;
+    width: 98.4375%; /* (1260px / 1280px) * 100% */
+    height: 90px;
+    padding-left: 37px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Estilo para los encabezados de nivel 1 */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+/* Estilo para los párrafos dentro de las secciones */
+section > p {
+    float: left;
+    width: 37.5%; /* (480px / 1280px) * 100% */
+    background-color: #555;
+    padding: 10px;
+    text-align: justify;
+    font-weight: lighter;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: medium;
+    line-height: 25px;
+    margin-right: 70px;
+}
+
+/* Estilo para los elementos div dentro de las secciones */
+section > div {
+    float: left;
+    width: 26.5625%; /* (340px / 1280px) * 100% */
+    margin: 0 auto;
+}
+
+/* Estilo para las imágenes dentro de ciertos elementos */
+#inicio > section > div > img {
+    border-radius: 5px;
+    width: 340px;
+    height: 250px;
+}
+
+/* Estilo para los formularios en la página */
+form {
+    float: left;
+    padding: 15px;
+    width: 28.90625%; /* (370px / 1280px) * 100% */
+    background-color: #555;
+    border-radius: 15px;
+    color: whitesmoke;
+}
+
+/* Estilo para los campos de entrada en los formularios */
+input {
+    margin: 5px;
+    padding: 7px;
+}
+
+/* Estilo para las listas desplegables en los formularios */
+select {
+    margin: 5px;
+    padding: 7px;
+    border: transparent;
+}
+
+/* Estilo para los enlaces en la barra de navegación cuando se desplaza sobre ellos */
+nav > ul > li > a:hover {
+    background-color: #555;
+}
+
+/* Estilo para las tablas en la página */
+table {
+    width: 41.796875%; /* (533px / 1280px) * 100% */
+    float: right;
+    text-align: center;
+}
+
+/* Estilo para el título de la tabla */
+caption {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
+/* Estilo para las imágenes dentro de elementos figure anidados dentro de enlaces a */
+figure > a > img {
+    width: 100px;
+}
+
+/* Estilo para elementos div dentro del pie de página */
+footer > div {
+    font-size: smaller;
+    height: 60px;
+    width: 21.875%; /* (280px / 1280px) * 100% */
+}
+
+/* Estilo para elementos de texto span */
+span {
+    font-weight: bold;
+}
